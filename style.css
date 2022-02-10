@@ -6,7 +6,7 @@ body {
 
 .toolbar {
   display: flex;
-  font-family: "Inter"; 
+  font-family: 'Inter',sans-serif;
   font-style: normal;
   justify-content: space-between;
 }
@@ -60,5 +60,4 @@ body {
 .github,
 .linkedin,
 .twitter {
-  padding-right: 20px;
-}
+  padding-right: 20px;}
