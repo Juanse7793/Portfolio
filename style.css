@@ -1,43 +1,48 @@
-body{
+body {
   background-image: url(Backgroud-images/header-illsutration-mobile.svg);
   background-position-y: 72px;
   background-repeat: no-repeat;
 }
-.toolbar{
+
+.toolbar {
   display: flex;
   font-family: "Inter";
   font-style: normal ;
   justify-content: space-between;
 }
-.icon{
+
+.icon {
   align-items:center;
   font-size: 20px;
   background-color: white;
   border: transparent;
 }
-.name{
+
+.name {
   position: static;
   font-family: Inter;
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
   line-height: 52px;
-  color: #172B4D;
+  color: #172b4d;
   text-align: center;
   margin-bottom: 0px;
 }
-.career{
+
+.career {
   position: static;
   font-family: Inter;
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
   line-height: 52px;
-  color: #36B37F;
+  color: #36b37f;
   text-align: center;
   margin-top: 0px;
 }
-.paragraph{
+
+.paragraph {
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
@@ -46,11 +51,14 @@ body{
   text-align: center;
   color: #172B4D;
 }
-.social{
+
+.social {
   display: flex;
   justify-content: center;
 }
-.github,.linkedin,.twitter{
+
+.github,
+.linkedin,
+.twitter {
   padding-right: 20px;
 }
-
