@@ -4,6 +4,11 @@ body {
   background-repeat: no-repeat;
 }
 
+.welcome-title {
+  text-decoration: none;
+  color: black;
+}
+
 .toolbar {
   display: flex;
   font-family: 'Inter', sans-serif;
@@ -61,4 +66,9 @@ body {
 .linkedin,
 .twitter {
   padding-right: 20px;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
 }
