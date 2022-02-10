@@ -20,7 +20,7 @@ body {
 
 .name {
   position: static;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
@@ -32,7 +32,7 @@ body {
 
 .career {
   position: static;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
@@ -43,7 +43,7 @@ body {
 }
 
 .paragraph {
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -60,4 +60,5 @@ body {
 .github,
 .linkedin,
 .twitter {
-  padding-right: 20px;}
+  padding-right: 20px;
+}
