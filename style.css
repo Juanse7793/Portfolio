@@ -6,7 +6,7 @@ body {
 
 .toolbar {
   display: flex;
-  font-family: 'Inter',sans-serif;
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   justify-content: space-between;
 }
