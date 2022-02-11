@@ -111,8 +111,7 @@ ul {
 }
 
 .buttons {
-  display: flex;
-  justify-content: center;
+  text-align: center;
 }
 
 .languages {
@@ -125,6 +124,10 @@ ul {
   line-height: 16px;
   letter-spacing: 0.03em;
   color: #3a4a42;
+  background: #ebf0ee;
+  border-radius: 4px;
+  border: none;
+  height: 32px;
 }
 
 .see-project {
@@ -146,14 +149,18 @@ ul {
   border: none;
 }
 
-.container {
+.works-container {
+  display: grid;
   grid-template-rows: 1fr 1fr;
-  background-color: #ebf0ee;
+  background-color: white;
   width: 327px;
   height: 474px;
   margin-left: 26px;
   margin-right: 22px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
+  border: 1px solid #d0d9d4;
+  border-radius: 8px;
+  padding-bottom: 24px;
 }
 
 .multi {
@@ -219,7 +226,7 @@ ul {
 
 .container-skills {
   width: 327px;
-  height: 352px;
+  height: 360px;
   border-radius: 8px;
   background-color: #ebf0ee;
   margin-left: 24px;
@@ -237,16 +244,6 @@ ul {
   margin-left: auto;
   margin-right: auto;
   padding-top: 40px;
-}
-
-.icons {
-  margin-left: 8px;
-  color: #36b37e;
-  background: white;
-  border: none;
-  border-radius: 8px;
-  height: 40px;
-  margin-top: 10px;
 }
 
 .final-text {
@@ -300,4 +297,19 @@ ul {
 
 .side-form {
   position: absolute;
+}
+
+.icons-skills,
+.icons-frame,
+.icons {
+  margin-left: 8px;
+  color: #36b37e;
+  background: white;
+  border: none;
+  border-radius: 8px;
+  height: 40px;
+  margin-top: 10px;
+  font-size: 12px;
+  letter-spacing: 0.03em;
+  font-weight: 600;
 }
