@@ -126,7 +126,7 @@
         <section class="whole-about-me-section">
             <section class="about-me">
                 <div class="about-cont">
-                    <span></span>
+                    <span class="span-width"></span>
                     <h2 class="about-me-title">About me</h2>
                     <img class="mask1" src="images/Mask_Group.png" alt="mask1">
                 </div>
@@ -167,14 +167,13 @@
                 </section>
             </section>
             <section class="final-text">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</section>
-            <section class="data">
-                <input class="input-name" type="text" placeholder="Full name">
-                <input class="email-address" type="email" placeholder="Email address">
-                <textarea name="text1" class="text1" cols="30" rows="10">Enter text here</textarea>
-                <section class="side-im">
-                    <img class="side-form" src="images/form.svg" alt="side-form">
-                </section>
-                <button class="get-my-resume">Get in touch</button>
+            <section class="data">   
+                <form action="https://formspree.io/f/xayvoepp" method="post">
+                    <input class="input-name" type="text" placeholder="Full name" maxlength="30" required>
+                    <input class="email-address" type="email" placeholder="Email address" required>
+                    <textarea name="text1" class="text1" maxlength="500" placeholder="Enter text here" cols="30" rows="10" required></textarea>
+                    <button type="submit" class="get-my-resume">Get in touch</button>
+                </form>
                 <section class="social">
                     <ul>
                         <li><a class="github" href="https://github.com/Juanse7793"><img src="images/github.svg" alt="github"></a></li>
