@@ -266,6 +266,12 @@ ul {
   padding-top: 40px;
 }
 
+.data {
+  background-image: url(images/form.svg);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
 .final-text {
   font-size: 40px;
   line-height: 52px;
@@ -307,11 +313,6 @@ ul {
   text-align: center;
   color: #42526e;
   height: 375px;
-}
-
-.side-im {
-  display: flex;
-  justify-content: right;
 }
 
 .side-form {
