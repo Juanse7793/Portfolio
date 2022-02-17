@@ -1,336 +1,717 @@
-body {
-  background-image: url(Backgroud-images/header-illsutration-mobile.svg);
-  background-position-y: 72px;
-  background-repeat: no-repeat;
+@media only screen and (min-width: 600px) {
+  .intro {
+    background-image: url(desktop/Header-llustration-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 1474.3px;
+    
+
+  }
+
+  .toolbar {
+    display: none;
+  }
+
+  .desktop-buttons {
+    display: flex;
+    justify-content: center;
+    margin-right: 80px;
+  }
+
+  .portfolio-desk,
+  .about-desk,
+  .contact-desk {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    padding: 0 20px;
+    text-decoration: none;
+    color: #172b4d;
+  }
+
+  .name {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 52px;
+    text-align: center;
+    color: #172b4d;
+    margin-bottom: 0;
+    padding-top: 232px;
+    vertical-align: middle;
+  }
+  
+  .career {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 52px;
+    color: #36b37f;
+    text-align: center;
+    margin-top: 20px;
+    vertical-align: middle;
+  }
+
+  .paragraph {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #172b4d;
+    padding: 0 300px;
+  }
+  
+  .social {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .github,
+  .linkedin,
+  .twitter {
+    padding-right: 20px;
+  }
+  
+  ul {
+    display: flex;
+    list-style-type: none;
+  }
+
+  .recent-works {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    line-height: 52px;
+    color: #172b4d;
+    font-family: 'Inter', sans-serif;
+  }
+
+  .works {
+    display: none;
+  }
+
+  .separation-bar {
+    display: none;
+  }
+
+  .multi-post-title {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #3a4a42;
+  }
+  
+  .buttons {
+    text-align: center;
+  }
+  
+  .languages {
+    position: static;
+    margin-right: 8px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    color: #3a4a42;
+    background: #ebf0ee;
+    border-radius: 4px;
+    border: none;
+    height: 32px;
+  }
+  
+  .languages:hover {
+    background: #36b37f;
+    color: #ebf0ee;
+  }
+
+  .see-project {
+    background: #36b37f;
+    border-radius: 4px;
+    width: 122px;
+    height: 48px;
+    top: 12px;
+    left: 12px;
+    font-family: 'Inter', sans-serif;
+    color: white;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    margin-top: 38px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+  }
+  
+  .see-project:active {
+    background: #008552;
+    font-weight: bold;
+  }
+  
+  .works-container {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    background-color: white;
+    width: 327px;
+    height: 474px;
+    margin-left: 26px;
+    margin-right: 22px;
+    margin-bottom: 30px;
+    border: 1px solid #d0d9d4;
+    border-radius: 8px;
+    padding-bottom: 24px;
+  }
+  
+  .multi {
+    background-color: white;
+  }
+  
+  .image-grey {
+    width: 327px;
+    height: 252px;
+  }
+
+  .desk-works {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 20px 275px 192px 250px;
+    
+  }
+
+  .about-me-title {
+    font-size: 40px;
+    line-height: 52px;
+    text-align: center;
+    color: #172b4d;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 24px;
+  }
+
+  .about-me-paragraph {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #172b4d;
+    vertical-align: middle;
+    margin: 0 500px;
+  }
+
+  .get-my-resume {
+    background: #36b37f;
+    border-radius: 4px;
+    width: 159px;
+    height: 48px;
+    top: 12px;
+    left: 12px;
+    font-family: 'Inter', sans-serif;
+    color: white;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    margin-top: 38px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    margin-bottom: 50px;
+  }
+  
+  .get-my-resume:active {
+    background: #008552;
+    font-weight: bold;
+  }
+  
+  .container-skills {
+    width: 369px;
+    height: 352px;
+    border-radius: 8px;
+    background-color: #ebf0ee;
+    margin-left: 24px;
+    margin-bottom: 24px;
+  }
+  
+  .languages-title {
+    color: #344563;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+  }
+  
+  .icon-lang {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+  }
+
+  .icons-skills,
+  .icons-frame,
+  .icons {
+    margin-left: 8px;
+    color: #36b37e;
+    background: white;
+    border: none;
+    border-radius: 8px;
+    height: 40px;
+    margin-top: 10px;
+    font-size: 12px;
+    letter-spacing: 0.03em;
+    font-weight: 600;
+  }
+  .mask1 {
+    display: none;
+  }
+
+  .full-skills-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .final-email {
+    display: none;
+  }
+
+  .input-name {
+    display: none;
+  }
+
+  .input-first-name {
+    width: 330px;
+    height: 48px;
+    margin: 0 22px 24px 24px;
+    padding-left: 10px;
+    border-radius: 4px;
+    border: 1px solid #d0d9d4;
+    box-sizing: border-box;
+  }
+
+  .input-last-name {
+    width: 330px;
+    height: 48px;
+    margin: 0 22px 24px 0;
+    padding-left: 10px;
+    border-radius: 4px;
+    border: 1px solid #d0d9d4;
+    box-sizing: border-box;
+  }
+
+  .email-address {
+    width: 684px;
+    height: 48px;
+    margin: 0 22px 24px 24px;
+    padding-left: 10px;
+    border-radius: 4px;
+    border: 1px solid #d0d9d4;
+    box-sizing: border-box;
+  }
+  
+  .text2 {
+    width: 684px;
+    height: 114px;
+    margin: 20px 22px 24px 24px;
+    border: 1px solid #60c095;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 10px 0 0 10px;
+    color: #091e42;
+  }
+
+  .final-text {
+    font-size: 30px;
+    line-height: 52px;
+    text-align: center;
+    color: #172b4d;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+  }
+  .text1 {
+    display: none;
+  }
+
+  .desk-form-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 164px 230px 0 275px;
+  }
+
+  .desk-form {
+    text-align: right;
+  }
+
+
+
+
+
+
+
+
+
 }
 
-.welcome-title {
-  text-decoration: none;
-  color: black;
+@media only screen and (max-width: 599px) {
+  body {
+    background-image: url(Backgroud-images/header-illsutration-mobile.svg);
+    background-position-y: 72px;
+    background-repeat: no-repeat;
+  }
+  
+  .welcome-title {
+    text-decoration: none;
+    color: black;
+  }
+
+  .desktop-buttons {
+    display: none;
+  }
+  
+  .toolbar {
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    justify-content: space-between;
+  }
+  
+  .icon {
+    align-items: center;
+    font-size: 20px;
+    background-color: white;
+    border: transparent;
+  }
+  
+  .name {
+    position: static;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 52px;
+    text-align: center;
+    color: #172b4d;
+    margin-bottom: 0;
+    padding-top: 30px;
+  }
+  
+  .career {
+    position: static;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 52px;
+    color: #36b37f;
+    text-align: center;
+    margin-top: 0;
+  }
+  
+  .paragraph {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #172b4d;
+  }
+  
+  .social {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .github,
+  .linkedin,
+  .twitter {
+    padding-right: 20px;
+  }
+  
+  ul {
+    display: flex;
+    list-style-type: none;
+  }
+  
+  .works {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    margin-top: 50px;
+  }
+  
+  .recent-works {
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+    line-height: 52px;
+    text-align: center;
+    color: #172b4d;
+    font-family: 'Inter', sans-serif;
+    padding-left: 10px;
+  }
+  
+  .separation-bar {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 62px;
+  }
+  
+  .multi-post-title {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #3a4a42;
+  }
+  
+  .buttons {
+    text-align: center;
+  }
+  
+  .languages {
+    position: static;
+    margin-right: 8px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    color: #3a4a42;
+    background: #ebf0ee;
+    border-radius: 4px;
+    border: none;
+    height: 32px;
+  }
+  
+  .languages:hover {
+    background: #36b37f;
+    color: #ebf0ee;
+  }
+  
+  .see-project {
+    background: #36b37f;
+    border-radius: 4px;
+    width: 122px;
+    height: 48px;
+    top: 12px;
+    left: 12px;
+    font-family: 'Inter', sans-serif;
+    color: white;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    margin-top: 38px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+  }
+  
+  .see-project:active {
+    background: #008552;
+    font-weight: bold;
+  }
+  
+  .works-container {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    background-color: white;
+    width: 327px;
+    height: 474px;
+    margin-left: 26px;
+    margin-right: 22px;
+    margin-bottom: 30px;
+    border: 1px solid #d0d9d4;
+    border-radius: 8px;
+    padding-bottom: 24px;
+  }
+  
+  .multi {
+    background-color: white;
+  }
+  
+  .image-grey {
+    width: 327px;
+    height: 252px;
+  }
+  
+  .about-me-title {
+    font-size: 40px;
+    line-height: 52px;
+    text-align: center;
+    color: #172b4d;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 0;
+  }
+  
+  .span-width {
+    margin: 0 20px;
+  }
+  
+  .about-me-paragraph {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #172b4d;
+    width: 351px;
+    margin-top: 0;
+    padding-left: 10px;
+  }
+  
+  .about-cont {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .about-me {
+    background-image: url(images/about.png);
+    background-repeat: no-repeat;
+    background-position-y: center;
+  }
+  
+  .get-my-resume {
+    background: #36b37f;
+    border-radius: 4px;
+    width: 159px;
+    height: 48px;
+    top: 12px;
+    left: 12px;
+    font-family: 'Inter', sans-serif;
+    color: white;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    margin-top: 38px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    margin-bottom: 50px;
+  }
+  
+  .get-my-resume:active {
+    background: #008552;
+    font-weight: bold;
+  }
+  
+  .container-skills {
+    width: 327px;
+    height: 360px;
+    border-radius: 8px;
+    background-color: #ebf0ee;
+    margin-left: 24px;
+    margin-bottom: 24px;
+  }
+  
+  .languages-title {
+    color: #344563;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+  }
+  
+  .icon-lang {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+  }
+  
+  .data {
+    background-image: url(images/form.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+  }
+  
+  .final-text {
+    font-size: 40px;
+    line-height: 52px;
+    text-align: center;
+    color: #172b4d;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    margin-bottom: 58px;
+  }
+  
+  .input-name,
+  .email-address {
+    width: 327px;
+    height: 48px;
+    margin: 0 22px 24px 24px;
+    padding-left: 10px;
+    border-radius: 4px;
+    border: 1px solid #d0d9d4;
+    box-sizing: border-box;
+  }
+  
+  .text1 {
+    width: 327px;
+    height: 114px;
+    margin: 20px 22px 24px 24px;
+    border: 1px solid #60c095;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 10px 0 0 10px;
+    color: #091e42;
+  }
+  
+  .text2 {
+    display: none;
+  }
+
+  .input-first-name,
+  .input-last-name {
+    display: none;
+  }
+  
+  .final-email {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    text-align: center;
+    color: #42526e;
+    height: 375px;
+  }
+  
+  .side-form {
+    position: absolute;
+  }
+  
+  .icons-skills,
+  .icons-frame,
+  .icons {
+    margin-left: 8px;
+    color: #36b37e;
+    background: white;
+    border: none;
+    border-radius: 8px;
+    height: 40px;
+    margin-top: 10px;
+    font-size: 12px;
+    letter-spacing: 0.03em;
+    font-weight: 600;
+  }
 }
 
-.toolbar {
-  display: flex;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  justify-content: space-between;
-}
-
-.icon {
-  align-items: center;
-  font-size: 20px;
-  background-color: white;
-  border: transparent;
-}
-
-.name {
-  position: static;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 40px;
-  line-height: 52px;
-  text-align: center;
-  color: #172b4d;
-  margin-bottom: 0;
-  padding-top: 30px;
-}
-
-.career {
-  position: static;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 40px;
-  line-height: 52px;
-  color: #36b37f;
-  text-align: center;
-  margin-top: 0;
-}
-
-.paragraph {
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 28px;
-  text-align: center;
-  color: #172b4d;
-}
-
-.social {
-  display: flex;
-  justify-content: center;
-}
-
-.github,
-.linkedin,
-.twitter {
-  padding-right: 20px;
-}
-
-ul {
-  display: flex;
-  list-style-type: none;
-}
-
-.works {
-  display: flex;
-  justify-content: center;
-  text-decoration: none;
-  margin-top: 50px;
-}
-
-.recent-works {
-  display: flex;
-  align-items: center;
-  font-size: 40px;
-  line-height: 52px;
-  text-align: center;
-  color: #172b4d;
-  font-family: 'Inter', sans-serif;
-  padding-left: 10px;
-}
-
-.separation-bar {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 62px;
-}
-
-.multi-post-title {
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 32px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  color: #3a4a42;
-}
-
-.buttons {
-  text-align: center;
-}
-
-.languages {
-  position: static;
-  margin-right: 8px;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 12px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
-  color: #3a4a42;
-  background: #ebf0ee;
-  border-radius: 4px;
-  border: none;
-  height: 32px;
-}
-
-.languages:hover {
-  background: #36b37f;
-  color: #ebf0ee;
-}
-
-.see-project {
-  background: #36b37f;
-  border-radius: 4px;
-  width: 122px;
-  height: 48px;
-  top: 12px;
-  left: 12px;
-  font-family: 'Inter', sans-serif;
-  color: white;
-  font-weight: 500;
-  font-size: 17px;
-  line-height: 24px;
-  margin-top: 38px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  border: none;
-}
-
-.see-project:active {
-  background: #008552;
-  font-weight: bold;
-}
-
-.works-container {
-  display: grid;
-  grid-template-rows: 1fr 1fr;
-  background-color: white;
-  width: 327px;
-  height: 474px;
-  margin-left: 26px;
-  margin-right: 22px;
-  margin-bottom: 30px;
-  border: 1px solid #d0d9d4;
-  border-radius: 8px;
-  padding-bottom: 24px;
-}
-
-.multi {
-  background-color: white;
-}
-
-.image-grey {
-  width: 327px;
-  height: 252px;
-}
-
-.about-me-title {
-  font-size: 40px;
-  line-height: 52px;
-  text-align: center;
-  color: #172b4d;
-  font-family: 'Inter', sans-serif;
-  margin-bottom: 0;
-}
-
-.span-width {
-  margin: 0 20px;
-}
-
-.about-me-paragraph {
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 28px;
-  text-align: center;
-  color: #172b4d;
-  width: 351px;
-  margin-top: 0;
-  padding-left: 10px;
-}
-
-.about-cont {
-  display: flex;
-  justify-content: space-between;
-}
-
-.about-me {
-  background-image: url(images/about.png);
-  background-repeat: no-repeat;
-  background-position-y: center;
-}
-
-.get-my-resume {
-  background: #36b37f;
-  border-radius: 4px;
-  width: 159px;
-  height: 48px;
-  top: 12px;
-  left: 12px;
-  font-family: 'Inter', sans-serif;
-  color: white;
-  font-weight: 500;
-  font-size: 17px;
-  line-height: 24px;
-  margin-top: 38px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  border: none;
-  margin-bottom: 50px;
-}
-
-.get-my-resume:active {
-  background: #008552;
-  font-weight: bold;
-}
-
-.container-skills {
-  width: 327px;
-  height: 360px;
-  border-radius: 8px;
-  background-color: #ebf0ee;
-  margin-left: 24px;
-  margin-bottom: 24px;
-}
-
-.languages-title {
-  color: #344563;
-  font-family: 'Inter', sans-serif;
-  text-align: center;
-}
-
-.icon-lang {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 40px;
-}
-
-.data {
-  background-image: url(images/form.svg);
-  background-repeat: no-repeat;
-  background-position: right;
-}
-
-.final-text {
-  font-size: 40px;
-  line-height: 52px;
-  text-align: center;
-  color: #172b4d;
-  font-family: 'Inter', sans-serif;
-  font-weight: bold;
-  margin-bottom: 58px;
-}
-
-.input-name,
-.email-address {
-  width: 327px;
-  height: 48px;
-  margin: 0 22px 24px 24px;
-  padding-left: 10px;
-  border-radius: 4px;
-  border: 1px solid #d0d9d4;
-  box-sizing: border-box;
-}
-
-.text1 {
-  width: 327px;
-  height: 114px;
-  margin: 20px 22px 24px 24px;
-  border: 1px solid #60c095;
-  box-sizing: border-box;
-  border-radius: 4px;
-  padding: 10px 0 0 10px;
-  color: #091e42;
-}
-
-.final-email {
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 32px;
-  text-align: center;
-  color: #42526e;
-  height: 375px;
-}
-
-.side-form {
-  position: absolute;
-}
-
-.icons-skills,
-.icons-frame,
-.icons {
-  margin-left: 8px;
-  color: #36b37e;
-  background: white;
-  border: none;
-  border-radius: 8px;
-  height: 40px;
-  margin-top: 10px;
-  font-size: 12px;
-  letter-spacing: 0.03em;
-  font-weight: 600;
-}
