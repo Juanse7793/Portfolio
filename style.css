@@ -4,8 +4,6 @@
     background-repeat: no-repeat;
     background-size: contain;
     height: 1474.3px;
-    
-
   }
 
   .toolbar {
@@ -83,8 +81,6 @@
   }
 
   .recent-works {
-    display: flex;
-    justify-content: center;
     font-size: 40px;
     line-height: 52px;
     color: #172b4d;
@@ -183,12 +179,41 @@
     height: 252px;
   }
 
+  .whole-works-section {
+    display: flex;
+    justify-content: center;
+  }
+
+  .work-final {
+    margin-top: 750px;
+  }
+
+  .works-title {
+    text-align: center;
+    margin-bottom: 0;
+  }
+
   .desk-works {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    padding: 20px 275px 192px 250px;
-    
+    justify-content: center;
+    grid-column-gap: 24px ;
+    margin-top: 52px;
+  }
+
+  .whole-about-me-section {
+    background-image: url(desktop/illustration\ about\ me\ desktop.svg);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: top;
+  }
+
+  .about-me {
+    background-image: url(desktop/illustration-about-me-2-desktop.svg);
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: bottom;
   }
 
   .about-me-title {
@@ -272,6 +297,7 @@
     font-size: 12px;
     letter-spacing: 0.03em;
     font-weight: 600;
+    padding: 0 15px;
   }
   .mask1 {
     display: none;
@@ -288,26 +314,6 @@
 
   .input-name {
     display: none;
-  }
-
-  .input-first-name {
-    width: 330px;
-    height: 48px;
-    margin: 0 22px 24px 24px;
-    padding-left: 10px;
-    border-radius: 4px;
-    border: 1px solid #d0d9d4;
-    box-sizing: border-box;
-  }
-
-  .input-last-name {
-    width: 330px;
-    height: 48px;
-    margin: 0 22px 24px 0;
-    padding-left: 10px;
-    border-radius: 4px;
-    border: 1px solid #d0d9d4;
-    box-sizing: border-box;
   }
 
   .email-address {
@@ -347,20 +353,42 @@
     display: flex;
     justify-content: space-between;
     margin: 164px 230px 0 275px;
+    background-image: url(desktop/peque.svg);
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: bottom;
+  }
+
+  .input-first-name {
+    width: 330px;
+    height: 48px;
+    margin: 24px 0 24px 24px;
+    padding-left: 10px;
+    border-radius: 4px;
+    border: 1px solid #d0d9d4;
+    box-sizing: border-box;
+  }
+
+  .input-last-name {
+    width: 330px;
+    height: 48px;
+    margin: 0 22px 24px 24px;
+    padding-left: 10px;
+    border-radius: 4px;
+    border: 1px solid #d0d9d4;
+    box-sizing: border-box;
   }
 
   .desk-form {
-    text-align: right;
+    display: inline-table ;
   }
 
-
-
-
-
-
-
-
-
+  .data {
+    background-image: url(desktop/right.svg), url(/desktop/left.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position-x: right, left;
+    background-position-y: bottom, bottom;
+  }
 }
 
 @media only screen and (max-width: 599px) {
