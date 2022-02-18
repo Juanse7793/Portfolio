@@ -1,3 +1,41 @@
+.name,
+.career {
+  animation: Title 500ms forwards;
+  opacity: 0;
+  animation-delay: 500ms;
+}
+
+.social,
+.paragraph {
+  animation: Title2 1000ms forwards;
+  opacity: 0;
+  animation-delay: 1000ms;
+}
+
+@keyframes Title {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes Title2 {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 @media only screen and (max-width: 600px) {
   body {
     background-image: url(Backgroud-images/header-illsutration-mobile.svg);
