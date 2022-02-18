@@ -1,4 +1,4 @@
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 1101px) {
   .intro {
     background-image: url(desktop/Header-llustration-desktop.svg);
     background-repeat: no-repeat;
@@ -387,9 +387,25 @@
     background-position-x: right, left;
     background-position-y: bottom, bottom;
   }
+
+  .get-in-touch {
+    background: #36b37f;
+    border-radius: 4px;
+    width: 159px;
+    height: 48px;
+    top: 12px;
+    left: 12px;
+    font-family: 'Inter', sans-serif;
+    color: white;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    border: none;
+    margin: 38px 0 50px 27px;
+  }
 }
 
-@media only screen and (max-width: 599px) {
+@media only screen and (max-width: 600px) {
   body {
     background-image: url(Backgroud-images/header-illsutration-mobile.svg);
     background-position-y: 72px;
@@ -738,5 +754,851 @@
     font-size: 12px;
     letter-spacing: 0.03em;
     font-weight: 600;
+  }
+
+  .get-in-touch {
+    background: #36b37f;
+    border-radius: 4px;
+    width: 159px;
+    height: 48px;
+    top: 12px;
+    left: 12px;
+    font-family: 'Inter', sans-serif;
+    color: white;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    margin-top: 38px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    margin-bottom: 50px;
+  }
+}
+
+@media only screen and (max-width: 1100px) and (min-width: 992px) {
+  .intro {
+    background-image: url(desktop/Header-llustration-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 90vh;
+    text-align: center;
+  }
+
+  .toolbar {
+    display: none;
+  }
+
+  .desktop-buttons {
+    display: flex;
+    justify-content: center;
+    margin-right: 80px;
+    margin-bottom: 100px;
+  }
+
+  .portfolio-desk,
+  .about-desk,
+  .contact-desk {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 0 25px;
+    text-decoration: none;
+    color: #172b4d;
+  }
+
+  .name {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 42px;
+    text-align: center;
+    color: #172b4d;
+    vertical-align: middle;
+  }
+
+  .career {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 0;
+    color: #36b37f;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  .paragraph {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #172b4d;
+    padding: 0 200px;
+  }
+
+  .social {
+    display: flex;
+    justify-content: center;
+  }
+
+  .github,
+  .linkedin,
+  .twitter {
+    padding-right: 20px;
+  }
+
+  ul {
+    display: flex;
+    list-style-type: none;
+  }
+
+  .recent-works {
+    font-size: 40px;
+    line-height: 52px;
+    color: #172b4d;
+    font-family: 'Inter', sans-serif;
+  }
+
+  .works {
+    display: none;
+  }
+
+  .separation-bar {
+    display: none;
+  }
+
+  .multi-post-title {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #3a4a42;
+  }
+
+  .buttons {
+    text-align: center;
+  }
+
+  .languages {
+    position: static;
+    margin-right: 8px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    color: #3a4a42;
+    background: #ebf0ee;
+    border-radius: 4px;
+    border: none;
+    height: 32px;
+  }
+
+  .languages:hover {
+    background: #36b37f;
+    color: #ebf0ee;
+  }
+
+  .see-project {
+    background: #36b37f;
+    border-radius: 4px;
+    width: 122px;
+    height: 48px;
+    top: 12px;
+    left: 12px;
+    font-family: 'Inter', sans-serif;
+    color: white;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    margin-top: 38px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+  }
+
+  .see-project:active {
+    background: #008552;
+    font-weight: bold;
+  }
+
+  .works-container {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    background-color: white;
+    width: 327px;
+    height: 474px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 30px;
+    border: 1px solid #d0d9d4;
+    border-radius: 8px;
+    padding-bottom: 24px;
+    transform: scale(0.8);
+  }
+
+  .multi {
+    background-color: white;
+  }
+
+  .image-grey {
+    width: 327px;
+    height: 252px;
+  }
+
+  .whole-works-section {
+    display: flex;
+    justify-content: center;
+  }
+
+  .works-title {
+    text-align: center;
+  }
+
+  .desk-works {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  .whole-about-me-section {
+    background-image: url(desktop/illustration\ about\ me\ desktop.svg);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: top;
+    background-size: 80%;
+  }
+
+  .about-me {
+    background-image: url(desktop/illustration-about-me-2-desktop.svg);
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: bottom;
+    background-size: 15%;
+    margin-bottom: 52px;
+  }
+
+  .about-me-title {
+    font-size: 40px;
+    line-height: 52px;
+    text-align: center;
+    color: #172b4d;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 24px;
+    transform: scale(0.9);
+  }
+
+  .about-me-paragraph {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #172b4d;
+    vertical-align: middle;
+    margin: 0 175px;
+    transform: scale(0.85);
+  }
+
+  .get-my-resume {
+    background: #36b37f;
+    border-radius: 4px;
+    width: 159px;
+    height: 48px;
+    top: 12px;
+    left: 12px;
+    font-family: 'Inter', sans-serif;
+    color: white;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    margin-top: 38px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    margin-bottom: 50px;
+  }
+
+  .get-my-resume:active {
+    background: #008552;
+    font-weight: bold;
+  }
+
+  .container-skills {
+    width: 369px;
+    height: 352px;
+    border-radius: 8px;
+    background-color: #ebf0ee;
+    margin-left: 24px;
+    margin-bottom: 24px;
+  }
+
+  .languages-title {
+    color: #344563;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+  }
+
+  .icon-lang {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+  }
+
+  .icons-skills,
+  .icons-frame,
+  .icons {
+    margin-left: 8px;
+    color: #36b37e;
+    background: white;
+    border: none;
+    border-radius: 8px;
+    height: 40px;
+    margin-top: 10px;
+    font-size: 12px;
+    letter-spacing: 0.03em;
+    font-weight: 600;
+    padding: 0 15px;
+  }
+
+  .mask1 {
+    display: none;
+  }
+
+  .full-skills-container {
+    display: flex;
+    justify-content: center;
+    transform: scale(0.85);
+  }
+
+  .final-email {
+    display: none;
+  }
+
+  .input-name {
+    display: none;
+  }
+
+  .email-address {
+    width: 684px;
+    height: 48px;
+    margin: 0 22px 24px 24px;
+    padding-left: 10px;
+    border-radius: 4px;
+    border: 1px solid #d0d9d4;
+    box-sizing: border-box;
+  }
+
+  .text2 {
+    width: 684px;
+    height: 114px;
+    margin: 20px 22px 24px 24px;
+    border: 1px solid #60c095;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 10px 0 0 10px;
+    color: #091e42;
+  }
+
+  .final-text {
+    font-size: 24px;
+    line-height: 34px;
+    text-align: center;
+    color: #172b4d;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+  }
+
+  .text1 {
+    display: none;
+  }
+
+  .desk-form-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 0 0;
+    background-image: url(desktop/peque.svg);
+    background-size: 10%;
+    background-repeat: no-repeat;
+    background-position-x: 110px;
+    background-position-y: bottom;
+    transform: scale(0.85);
+  }
+
+  .input-first-name {
+    width: 330px;
+    height: 48px;
+    margin: 24px 0 24px 24px;
+    padding-left: 10px;
+    border-radius: 4px;
+    border: 1px solid #d0d9d4;
+    box-sizing: border-box;
+  }
+
+  .input-last-name {
+    width: 330px;
+    height: 48px;
+    margin: 0 22px 24px 24px;
+    padding-left: 10px;
+    border-radius: 4px;
+    border: 1px solid #d0d9d4;
+    box-sizing: border-box;
+  }
+
+  .desk-form {
+    display: inline-table;
+  }
+
+  .data {
+    background-image: url(desktop/right.svg), url(/desktop/left.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position-x: right, left;
+    background-position-y: bottom, bottom;
+    background-size: 15%, 15%;
+  }
+
+  .get-in-touch {
+    background: #36b37f;
+    border-radius: 4px;
+    width: 159px;
+    height: 48px;
+    top: 12px;
+    left: 12px;
+    font-family: 'Inter', sans-serif;
+    color: white;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    border: none;
+    margin: 38px 0 50px 27px;
+  }
+}
+
+@media only screen and (max-width: 991px) and (min-width: 601px) {
+  .intro {
+    background-image: url(desktop/Header-llustration-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 90vh;
+    text-align: center;
+  }
+
+  .toolbar {
+    display: none;
+  }
+
+  .desktop-buttons {
+    display: flex;
+    justify-content: center;
+    margin-right: 80px;
+    margin-bottom: 100px;
+  }
+
+  .portfolio-desk,
+  .about-desk,
+  .contact-desk {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 0 25px;
+    text-decoration: none;
+    color: #172b4d;
+  }
+
+  .name {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 42px;
+    text-align: center;
+    color: #172b4d;
+    vertical-align: middle;
+  }
+
+  .career {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 0;
+    color: #36b37f;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  .paragraph {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #172b4d;
+    padding: 0 200px;
+  }
+
+  .social {
+    display: flex;
+    justify-content: center;
+  }
+
+  .github,
+  .linkedin,
+  .twitter {
+    padding-right: 20px;
+  }
+
+  ul {
+    display: flex;
+    list-style-type: none;
+  }
+
+  .recent-works {
+    font-size: 40px;
+    line-height: 52px;
+    color: #172b4d;
+    font-family: 'Inter', sans-serif;
+  }
+
+  .works {
+    display: none;
+  }
+
+  .separation-bar {
+    display: none;
+  }
+
+  .multi-post-title {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #3a4a42;
+  }
+
+  .buttons {
+    text-align: center;
+  }
+
+  .languages {
+    position: static;
+    margin-right: 8px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    color: #3a4a42;
+    background: #ebf0ee;
+    border-radius: 4px;
+    border: none;
+    height: 32px;
+  }
+
+  .languages:hover {
+    background: #36b37f;
+    color: #ebf0ee;
+  }
+
+  .see-project {
+    background: #36b37f;
+    border-radius: 4px;
+    width: 122px;
+    height: 48px;
+    top: 12px;
+    left: 12px;
+    font-family: 'Inter', sans-serif;
+    color: white;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    margin-top: 38px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+  }
+
+  .see-project:active {
+    background: #008552;
+    font-weight: bold;
+  }
+
+  .works-container {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    background-color: white;
+    width: 327px;
+    height: 474px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 30px;
+    border: 1px solid #d0d9d4;
+    border-radius: 8px;
+    padding-bottom: 24px;
+    transform: scale(0.8);
+  }
+
+  .multi {
+    background-color: white;
+  }
+
+  .image-grey {
+    width: 327px;
+    height: 252px;
+  }
+
+  .whole-works-section {
+    display: flex;
+    justify-content: center;
+  }
+
+  .works-title {
+    text-align: center;
+  }
+
+  .desk-works {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  .whole-about-me-section {
+    background-image: url(desktop/illustration\ about\ me\ desktop.svg);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: top;
+    background-size: 80%;
+  }
+
+  .about-me {
+    background-image: url(desktop/illustration-about-me-2-desktop.svg);
+    background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: bottom;
+    background-size: 15%;
+    margin-bottom: 52px;
+  }
+
+  .about-me-title {
+    font-size: 40px;
+    line-height: 52px;
+    text-align: center;
+    color: #172b4d;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 24px;
+    transform: scale(0.9);
+  }
+
+  .about-me-paragraph {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #172b4d;
+    vertical-align: middle;
+    margin: 0 175px;
+    transform: scale(0.85);
+  }
+
+  .get-my-resume {
+    background: #36b37f;
+    border-radius: 4px;
+    width: 159px;
+    height: 48px;
+    top: 12px;
+    left: 12px;
+    font-family: 'Inter', sans-serif;
+    color: white;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    margin-top: 38px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    margin-bottom: 50px;
+  }
+
+  .get-my-resume:active {
+    background: #008552;
+    font-weight: bold;
+  }
+
+  .container-skills {
+    width: 369px;
+    height: 352px;
+    border-radius: 8px;
+    background-color: #ebf0ee;
+    margin-left: 24px;
+    margin-bottom: 24px;
+  }
+
+  .languages-title {
+    color: #344563;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+  }
+
+  .icon-lang {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 40px;
+  }
+
+  .icons-skills,
+  .icons-frame,
+  .icons {
+    margin-left: 8px;
+    color: #36b37e;
+    background: white;
+    border: none;
+    border-radius: 8px;
+    height: 40px;
+    margin-top: 10px;
+    font-size: 12px;
+    letter-spacing: 0.03em;
+    font-weight: 600;
+    padding: 0 15px;
+  }
+
+  .mask1 {
+    display: none;
+  }
+
+  .full-skills-container {
+    display: flex;
+    justify-content: center;
+    transform: scale(0.85);
+  }
+
+  .final-email {
+    display: none;
+  }
+
+  .input-name {
+    display: none;
+  }
+
+  .email-address {
+    width: 684px;
+    height: 48px;
+    margin: 0 22px 24px 24px;
+    padding-left: 10px;
+    border-radius: 4px;
+    border: 1px solid #d0d9d4;
+    box-sizing: border-box;
+  }
+
+  .text2 {
+    width: 684px;
+    height: 114px;
+    margin: 20px 22px 24px 24px;
+    border: 1px solid #60c095;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 10px 0 0 10px;
+    color: #091e42;
+  }
+
+  .final-text {
+    font-size: 24px;
+    line-height: 34px;
+    text-align: center;
+    color: #172b4d;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+  }
+
+  .text1 {
+    display: none;
+  }
+
+  .desk-form-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 0 0;
+    background-image: url(desktop/peque.svg);
+    background-size: 10%;
+    background-repeat: no-repeat;
+    background-position-x: 110px;
+    background-position-y: bottom;
+    transform: scale(0.85);
+  }
+
+  .input-first-name {
+    width: 330px;
+    height: 48px;
+    margin: 24px 0 24px 24px;
+    padding-left: 10px;
+    border-radius: 4px;
+    border: 1px solid #d0d9d4;
+    box-sizing: border-box;
+  }
+
+  .input-last-name {
+    width: 330px;
+    height: 48px;
+    margin: 0 22px 24px 24px;
+    padding-left: 10px;
+    border-radius: 4px;
+    border: 1px solid #d0d9d4;
+    box-sizing: border-box;
+  }
+
+  .desk-form {
+    display: inline-table;
+  }
+
+  .data {
+    background-image: url(desktop/right.svg), url(/desktop/left.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position-x: right, left;
+    background-position-y: bottom, bottom;
+    background-size: 15%, 15%;
+  }
+
+  .get-in-touch {
+    background: #36b37f;
+    border-radius: 4px;
+    width: 159px;
+    height: 48px;
+    top: 12px;
+    left: 12px;
+    font-family: 'Inter', sans-serif;
+    color: white;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    border: none;
+    margin: 38px 0 50px 27px;
   }
 }
