@@ -371,7 +371,7 @@
 }
 
 @media only screen and (min-width: 992px) {
-  /* Add transition or animation here*/
+  /* Add transition or animation here */
   .intro {
     background-image: url(desktop/Header-llustration-desktop.svg);
     background-repeat: no-repeat;
