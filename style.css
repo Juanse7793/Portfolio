@@ -151,7 +151,7 @@
     display: flex;
     align-items: center;
     text-align: center;
-    color: #3a4a42;
+    color: black;
   }
 
   .buttons {
@@ -167,8 +167,8 @@
     font-size: 12px;
     line-height: 16px;
     letter-spacing: 0.03em;
-    color: #3a4a42;
-    background: #ebf0ee;
+    color: white;
+    background: #26815B;
     border-radius: 4px;
     border: none;
     height: 32px;
@@ -176,11 +176,11 @@
 
   .languages:hover {
     background: #36b37f;
-    color: #ebf0ee;
+    color: #b6c1bc;
   }
 
   .see-project {
-    background: #36b37f;
+    background: #26815B;
     border-radius: 4px;
     width: 122px;
     height: 48px;
@@ -264,7 +264,7 @@
   }
 
   .get-my-resume {
-    background: #36b37f;
+    background: #26815B;
     border-radius: 4px;
     width: 159px;
     height: 48px;
@@ -292,7 +292,7 @@
     width: 327px;
     height: 360px;
     border-radius: 8px;
-    background-color: #ebf0ee;
+    background-color: #b6c1bc;
     margin-left: 24px;
     margin-bottom: 24px;
   }
@@ -376,7 +376,7 @@
   .icons-frame,
   .icons {
     margin-left: 8px;
-    color: #36b37e;
+    color: #26815B;
     background: white;
     border: none;
     border-radius: 8px;
@@ -388,7 +388,7 @@
   }
 
   .get-in-touch {
-    background: #36b37f;
+    background: #26815B;
     border-radius: 4px;
     width: 159px;
     height: 48px;
@@ -514,7 +514,7 @@
     display: flex;
     align-items: center;
     text-align: center;
-    color: #3a4a42;
+    color: black;
   }
 
   .buttons {
@@ -530,8 +530,8 @@
     font-size: 12px;
     line-height: 16px;
     letter-spacing: 0.03em;
-    color: #3a4a42;
-    background: #ebf0ee;
+    color: white;
+    background: #26815B;
     border-radius: 4px;
     border: none;
     height: 32px;
@@ -539,11 +539,11 @@
 
   .languages:hover {
     background: #36b37f;
-    color: #ebf0ee;
+    color: #b6c1bc;
   }
 
   .see-project {
-    background: #36b37f;
+    background: #26815B;
     border-radius: 4px;
     width: 122px;
     height: 48px;
@@ -646,7 +646,7 @@
   }
 
   .get-my-resume {
-    background: #36b37f;
+    background: #26815B;
     border-radius: 4px;
     width: 159px;
     height: 48px;
@@ -674,7 +674,7 @@
     width: 369px;
     height: 352px;
     border-radius: 8px;
-    background-color: #ebf0ee;
+    background-color: #b6c1bc;
     margin-left: 24px;
     margin-bottom: 24px;
   }
@@ -696,7 +696,7 @@
   .icons-frame,
   .icons {
     margin-left: 8px;
-    color: #36b37e;
+    color: #26815B;
     background: white;
     border: none;
     border-radius: 8px;
@@ -797,7 +797,7 @@
   }
 
   .data {
-    background-image: url(desktop/right.svg), url(/desktop/left.svg);
+    background-image: url(desktop/right.svg), url(desktop/left.svg);
     background-repeat: no-repeat, no-repeat;
     background-position-x: right, left;
     background-position-y: bottom, bottom;
@@ -805,7 +805,7 @@
   }
 
   .get-in-touch {
-    background: #36b37f;
+    background: #26815B;
     border-radius: 4px;
     width: 159px;
     height: 48px;
@@ -927,7 +927,7 @@
     display: flex;
     align-items: center;
     text-align: center;
-    color: #3a4a42;
+    color: black;
   }
 
   .buttons {
@@ -943,8 +943,8 @@
     font-size: 12px;
     line-height: 16px;
     letter-spacing: 0.03em;
-    color: #3a4a42;
-    background: #ebf0ee;
+    color: white;
+    background: #26815B;
     border-radius: 4px;
     border: none;
     height: 32px;
@@ -952,11 +952,11 @@
 
   .languages:hover {
     background: #36b37f;
-    color: #ebf0ee;
+    color: #b6c1bc;
   }
 
   .see-project {
-    background: #36b37f;
+    background: #26815B;
     border-radius: 4px;
     width: 122px;
     height: 48px;
@@ -1059,7 +1059,7 @@
   }
 
   .get-my-resume {
-    background: #36b37f;
+    background: #26815B;
     border-radius: 4px;
     width: 159px;
     height: 48px;
@@ -1087,7 +1087,7 @@
     width: 369px;
     height: 352px;
     border-radius: 8px;
-    background-color: #ebf0ee;
+    background-color: #b6c1bc;
     margin-left: 24px;
     margin-bottom: 24px;
   }
@@ -1109,7 +1109,7 @@
   .icons-frame,
   .icons {
     margin-left: 8px;
-    color: #36b37e;
+    color: #26815B;
     background: white;
     border: none;
     border-radius: 8px;
@@ -1218,7 +1218,7 @@
   }
 
   .get-in-touch {
-    background: #36b37f;
+    background: #26815B;
     border-radius: 4px;
     width: 159px;
     height: 48px;
