@@ -43,6 +43,10 @@
     background-repeat: no-repeat;
   }
 
+  .input-atributte {
+    display: none;
+  }
+
   .welcome-title {
     text-decoration: none;
     color: black;
@@ -416,6 +420,10 @@
     width: 100vw;
     height: 90vh;
     text-align: center;
+  }
+
+  .input-atributte {
+    display: none;
   }
 
   .toolbar {
@@ -829,6 +837,10 @@
     width: 100vw;
     height: 90vh;
     text-align: center;
+  }
+
+  .input-atributte {
+    display: none;
   }
 
   .toolbar {
