@@ -14,21 +14,11 @@
 **In this repository I will create my personal Portfolio with some of my projects.**
 
 
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
 ### Deployment
 
+For a live demo please click on the following link:
 
+https://juanse7793.github.io/Portfolio/
 
 ## Authors
 

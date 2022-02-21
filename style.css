@@ -426,7 +426,7 @@
     display: flex;
     justify-content: center;
     margin-right: 80px;
-    margin-bottom: 100px;
+    margin-bottom: 200px;
   }
 
   .portfolio-desk,
@@ -471,7 +471,7 @@
     line-height: 28px;
     text-align: center;
     color: #172b4d;
-    padding: 0 200px;
+    padding: 0 300px;
   }
 
   .social {
