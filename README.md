@@ -16,6 +16,8 @@
 
 ### Deployment
 
+For a live demo please click on the following link:
+
 https://juanse7793.github.io/Portfolio/
 
 ## Authors
