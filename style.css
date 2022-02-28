@@ -107,8 +107,8 @@
 
   .desktop-buttons .closebtn {
     font-size: 40px;
-    top: 15px;
-    right: 20px;
+    top: 0;
+    right: 10px;
   }
 
   .toolbar {
