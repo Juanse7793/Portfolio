@@ -78,6 +78,10 @@
     margin-top: 30px;
   }
 
+  .toggle-nav {
+    font-size: 30px;
+  }
+
   .a-buttons:hover {
     color: #36b37f;
   }
