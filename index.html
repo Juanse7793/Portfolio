@@ -16,19 +16,26 @@
     <title>Portfolio</title>
 </head>
 <body>
+
+
     <header class="toolbar">
         <a class="welcome-title" href=""><h2>Welcome</h2></a>
-        <button class="icon">☰</button>
+        <div class="hamburguer-icon">
+            <span id="open" class="toggle-nav">&#9776;</span>
+        </div>
     </header>
     <main>
         <section class="intro">
-            <section class="desktop-buttons">
-                <ul>
-                    <li><a class="portfolio-desk" href="">Portfolio</a></li>
-                    <li><a class="about-desk" href="">About</a></li>
-                    <li><a class="contact-desk" href="">Contact</a></li>
-                </ul>
-            </section>
+                <section id="desk-buttons" class="desktop-buttons">
+                    <a href="javascript:void(0)" id="clsebtn" class="closebtn">X</a>
+                    <div class="menu-navigation">
+                        <a class="a-buttons" href="#Portfolio">Portfolio</a>
+                        <a class="a-buttons" href="#aboutMe">About</a>
+                        <a class="a-buttons" href="#contacto">Contact</a>
+                </section>
+            </div>
+
+
             <section class="header">
                 <h1 class="name">Hey there. I'm Juan Sebastian</h1>
                 <h2 class="career">I'm a software developer</h2>
@@ -43,7 +50,9 @@
                 </ul>
             </section>
         </section>
-            <section class="work-final">
+
+
+            <section id="Portfolio" class="work-final">
                 <section class="works-title">
                     <a class="works"><img src="Backgroud-images/Disabled.png" alt="works-button"></a>
                     <h2 class="recent-works">My Recent Works</h2>
@@ -144,7 +153,9 @@
                         </section>
                     </section>
             </section>
-        <section class="whole-about-me-section">
+
+
+        <section id="aboutMe" class="whole-about-me-section">
             <section class="about-me">
                 <div class="about-cont">
                     <span class="span-width"></span>
@@ -189,8 +200,10 @@
                     </section>
                 </section>
             </section>
+
+
             <section class="data">
-                <section class="desk-form-container">
+                <section id="contacto" class="desk-form-container">
                     <p class="final-text">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</p>   
                     <form class="desk-form" action="https://formspree.io/f/xayvoepp" method="post">
                         <input class="input-name" id="full-name" type="text" placeholder="Full name" maxlength="30" required>
@@ -208,6 +221,8 @@
                         <button type="submit" class="get-in-touch">Get in touch</button>
                     </form>
                 </section>
+
+
                 <section class="social">
                     <ul>
                         <li><a class="github" href="https://github.com/Juanse7793"><img src="images/github.svg" alt="github"></a></li>
@@ -219,5 +234,8 @@
             </section>
         </section>
     </main>
+
+    
+    <script src="portfolioScript.js"></script>
 </body>
 </html>
