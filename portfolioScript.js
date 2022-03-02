@@ -91,7 +91,7 @@ for (let i = 0; i < object.length; i += 1) {
           <section class="buttons">
           ${object[i].techMain.map((language) => `<button class="languages">${language}</button>`).join('')}
           </section>
-          <button class="see-project" id="${i}">See Project</button>
+          <button class="see-project" id="${i}">See Project ${i}</button>
        </section>
    </div>
   </section>`;
