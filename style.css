@@ -168,6 +168,106 @@
     list-style-type: none;
   }
 
+  .pop-up-modal {
+    position: absolute;
+    background-color: white;
+    border-radius: 0.5rem;
+    width: 375px;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .overlay {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
+  .img-cont-pop {
+    display: block;
+    text-align: center;
+    padding-top: 10px;
+  }
+
+  #img {
+    margin-top: 15px;
+    width: 350px;
+    height: auto;
+  }
+
+  .close-btn-cont {
+    display: flex;
+    justify-content: flex-end;
+    height: 20px;
+    width: 350px;
+    margin: 200px 20px 0 0;
+  }
+
+  .space-bet {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 30px 0 30px;
+  }
+
+  .flex-btn {
+    display: none;
+  }
+
+  .flex-btn-mob {
+    display: flex;
+    justify-content: center;
+  }
+
+  .live {
+    display: none;
+  }
+
+  .live-mob {
+    background: #26815b;
+    border-radius: 4px;
+    width: 122px;
+    height: 48px;
+    font-family: "Inter", sans-serif;
+    color: white;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    margin: 20px 5px 20px 5px;
+    border: none;
+    text-decoration: none;
+  }
+
+  #name {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 44px;
+    color: #172b4d;
+  }
+
+  .buttons-tech {
+    margin: 0 0 0 25px;
+  }
+
+  .lorem {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    margin: 15px 25px 0 25px;
+    color: #172b4d;
+  }
+
   .works {
     display: flex;
     justify-content: center;
@@ -222,6 +322,7 @@
     border-radius: 4px;
     border: none;
     height: 32px;
+    margin-bottom: 10px;
   }
 
   .languages:hover {
@@ -564,49 +665,64 @@
     text-align: left;
   }
 
-  .modal-container {
+  .pop-up-modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     background-color: white;
-    background-color: rgba(0, 0, 0, 0.95);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    padding: 0 1.5rem;
+    padding-bottom: 1.5rem;
+    border-radius: 0.5rem;
+  }
+
+  .overlay {
+    display: none;
     position: fixed;
-    opacity: 0;
-    pointer-events: none;
-    top: 0;
+    z-index: 1;
     left: 0;
-    height: 100vh;
-    width: 100vw;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.8);
   }
 
-  .modal-container.show {
-    pointer-events: auto;
-    opacity: 1;
-  }
-
-  .render-container {
-    background-color: white;
-    border: 8px solid red;
-  }
-  .render-container2 {
+  .img-cont-pop {
     display: block;
-    background-color: white;
-    border: 3px solid green;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+    text-align: center;
+    padding-top: 10px;
   }
-  .render-container3 {
-    border: 4px solid blue;
+
+  #img {
+    margin-top: 15px;
+    transform: scale(0.95);
   }
-  .render-container4 {
-    border: 5px solid rebeccapurple;
+
+  .close-btn-cont {
+    display: flex;
+    justify-content: flex-end;
+    height: 20px;
+    width: 830px;
+    margin: 100px 20px 0 0;
   }
-  .render-container5 {
+
+  .space-bet {
     display: flex;
     justify-content: space-between;
-    background-color: white;
-    border: 6px solid orange;
+    margin: 0 30px 0 30px;
+  }
+
+  .flex-btn {
+    display: flex;
+  }
+
+  .flex-btn-mob {
+    display: none;
+  }
+
+  .live-mob {
+    display: none;
   }
 
   .live {
@@ -614,42 +730,37 @@
     border-radius: 4px;
     width: 122px;
     height: 48px;
-    top: 12px;
-    left: 12px;
     font-family: "Inter", sans-serif;
     color: white;
     font-weight: 500;
     font-size: 17px;
     line-height: 24px;
-    margin-top: 38px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 20px 5px 20px 5px;
     border: none;
     text-decoration: none;
   }
 
-  .technologies {
-    text-decoration: none;
-    background-color: #b6c1bc;
-    vertical-align: middle;
-    border-radius: 4px;
-    border: none;
-    margin: 0 15px 0 15px;
+  #name {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 44px;
+    color: #172b4d;
   }
 
-  .render-btns {
-    display: flex;
-    justify-content: left;
+  .buttons-tech {
+    margin: 0 0 0 25px;
+  }
+
+  .lorem {
     font-family: "Inter", sans-serif;
     font-style: normal;
-    font-size: 12px;
-    line-height: 16px;
-    letter-spacing: 0.03em;
-    color: black;
-    border-radius: 4px;
-    border: 2px solid red;
-    height: 32px;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    margin: 15px 25px 0 25px;
+    color: #172b4d;
   }
 
   .works {
@@ -1067,6 +1178,96 @@
     line-height: 52px;
     color: #172b4d;
     font-family: "Inter", sans-serif;
+  }
+
+  .pop-up-modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 0 1.5rem;
+    padding-bottom: 1.5rem;
+    border-radius: 0.5rem;
+  }
+
+  .overlay {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
+  .img-cont-pop {
+    display: block;
+    text-align: center;
+    padding-top: 10px;
+  }
+
+  #img {
+    margin-top: 15px;
+    transform: scale(0.95);
+  }
+
+  .close-btn-cont {
+    display: flex;
+    justify-content: flex-end;
+    height: 20px;
+    width: 830px;
+    margin: 100px 20px 0 0;
+  }
+
+  .space-bet {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 30px 0 30px;
+  }
+
+  .flex-btn {
+    display: flex;
+  }
+
+  .live {
+    background: #26815b;
+    border-radius: 4px;
+    width: 122px;
+    height: 48px;
+    font-family: "Inter", sans-serif;
+    color: white;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    margin: 20px 5px 20px 5px;
+    border: none;
+    text-decoration: none;
+  }
+
+  #name {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 44px;
+    color: #172b4d;
+  }
+
+  .buttons-tech {
+    margin: 0 0 0 25px;
+  }
+
+  .lorem {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    margin: 15px 25px 0 25px;
+    color: #172b4d;
   }
 
   .works {
