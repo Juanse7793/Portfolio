@@ -138,9 +138,11 @@ projectBtns.forEach((button) => {
             </div>
 
         </div>
-        <section class="buttons-tech" id="buttons">
-          ${object[btnId].technologies.map((language) => `<button class="languages">${language}</button>`).join('')}
-        </section>
+        <div class="buttons-tech" id="buttons">
+          <ul class="ul-container">
+          ${object[btnId].technologies.map((language) => `<li class="technologies-buttons">${language}</li>`).join('')}
+          </ul>
+        </div>
         <div>
             <p class="lorem" id="paragraph">${object[btnId].description}</p>
         </div>
