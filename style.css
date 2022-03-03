@@ -171,6 +171,7 @@
   .pop-up-modal {
     position: absolute;
     background-color: white;
+    margin-top: 70px;
     border-radius: 0.5rem;
     width: 375px;
     height: auto;
@@ -198,7 +199,6 @@
   }
 
   #img {
-    margin-top: 15px;
     width: 350px;
     height: auto;
   }
@@ -669,6 +669,7 @@
     position: absolute;
     top: 50%;
     left: 50%;
+    margin-top: 125px;
     transform: translate(-50%, -50%);
     background-color: white;
     padding: 0 1.5rem;
@@ -695,7 +696,6 @@
   }
 
   #img {
-    margin-top: 15px;
     transform: scale(0.95);
   }
 
