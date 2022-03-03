@@ -168,6 +168,126 @@
     list-style-type: none;
   }
 
+  .pop-up-modal {
+    position: absolute;
+    background-color: white;
+    margin-top: 70px;
+    border-radius: 0.5rem;
+    width: 385px;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .overlay {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
+  .img-cont-pop {
+    display: block;
+    text-align: center;
+    padding-top: 10px;
+  }
+
+  #img {
+    width: 350px;
+    height: auto;
+  }
+
+  .close-btn-cont {
+    display: flex;
+    justify-content: flex-end;
+    height: 20px;
+    width: 330px;
+    margin: 20px 20px 0 35px;
+  }
+
+  .space-bet {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 30px 0 30px;
+  }
+
+  .flex-btn {
+    display: none;
+  }
+
+  .flex-btn-mob {
+    display: flex;
+    justify-content: center;
+  }
+
+  .live {
+    display: none;
+  }
+
+  .live-mob {
+    background: #26815b;
+    border-radius: 4px;
+    width: 122px;
+    height: 48px;
+    font-family: "Inter", sans-serif;
+    color: white;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    margin: 20px 5px 20px 5px;
+    border: none;
+    text-decoration: none;
+  }
+
+  #name {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 44px;
+    color: #172b4d;
+  }
+
+  .buttons-tech {
+    margin: 0 0 0 25px;
+  }
+
+  .technologies-buttons {
+    margin: 0 4px 0 4px;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    color: #344563;
+    background: #ebecf0;
+    border-radius: 8px;
+    border: none;
+    height: 32px;
+    padding: 8px 8px 0 8px;
+  }
+
+  .ul-container {
+    padding-inline-start: 0;
+  }
+
+  .lorem {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 28px;
+    margin: 15px 25px 0 25px;
+    color: #172b4d;
+  }
+
   .works {
     display: flex;
     justify-content: center;
@@ -222,6 +342,7 @@
     border-radius: 4px;
     border: none;
     height: 32px;
+    margin-bottom: 10px;
   }
 
   .languages:hover {
@@ -556,6 +677,130 @@
     line-height: 52px;
     color: #172b4d;
     font-family: "Inter", sans-serif;
+  }
+
+  .name-render {
+    font-family: 'Inter', sans-serif;
+    font-size: 35px;
+    text-align: left;
+  }
+
+  .pop-up-modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: 125px;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 0 1.5rem;
+    padding-bottom: 1.5rem;
+    border-radius: 0.5rem;
+  }
+
+  .overlay {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
+  .img-cont-pop {
+    display: block;
+    text-align: center;
+    padding-top: 10px;
+  }
+
+  #img {
+    transform: scale(0.95);
+  }
+
+  .close-btn-cont {
+    display: flex;
+    justify-content: flex-end;
+    height: 20px;
+    width: 800px;
+    margin: 100px 0 0 50px;
+  }
+
+  .space-bet {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 30px 0 30px;
+  }
+
+  .flex-btn {
+    display: flex;
+  }
+
+  .flex-btn-mob {
+    display: none;
+  }
+
+  .live-mob {
+    display: none;
+  }
+
+  .live {
+    background: #26815b;
+    border-radius: 4px;
+    width: 122px;
+    height: 48px;
+    font-family: "Inter", sans-serif;
+    color: white;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    margin: 20px 5px 20px 5px;
+    border: none;
+    text-decoration: none;
+  }
+
+  #name {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 44px;
+    color: #172b4d;
+  }
+
+  .buttons-tech {
+    margin: 0 0 0 25px;
+  }
+
+  .technologies-buttons {
+    margin: 0 4px 0 4px;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    color: #344563;
+    background: #ebecf0;
+    border-radius: 8px;
+    border: none;
+    height: 32px;
+    padding: 8px 8px 0 8px;
+  }
+
+  .ul-container {
+    padding-inline-start: 0;
+  }
+
+  .lorem {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    margin: 15px 25px 0 25px;
+    color: #172b4d;
   }
 
   .works {
@@ -973,6 +1218,96 @@
     line-height: 52px;
     color: #172b4d;
     font-family: "Inter", sans-serif;
+  }
+
+  .pop-up-modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 0 1.5rem;
+    padding-bottom: 1.5rem;
+    border-radius: 0.5rem;
+  }
+
+  .overlay {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
+  .img-cont-pop {
+    display: block;
+    text-align: center;
+    padding-top: 10px;
+  }
+
+  #img {
+    margin-top: 15px;
+    transform: scale(0.95);
+  }
+
+  .close-btn-cont {
+    display: flex;
+    justify-content: flex-end;
+    height: 20px;
+    width: 830px;
+    margin: 100px 20px 0 0;
+  }
+
+  .space-bet {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 30px 0 30px;
+  }
+
+  .flex-btn {
+    display: flex;
+  }
+
+  .live {
+    background: #26815b;
+    border-radius: 4px;
+    width: 122px;
+    height: 48px;
+    font-family: "Inter", sans-serif;
+    color: white;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    margin: 20px 5px 20px 5px;
+    border: none;
+    text-decoration: none;
+  }
+
+  #name {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 44px;
+    color: #172b4d;
+  }
+
+  .buttons-tech {
+    margin: 0 0 0 25px;
+  }
+
+  .lorem {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    margin: 15px 25px 0 25px;
+    color: #172b4d;
   }
 
   .works {
