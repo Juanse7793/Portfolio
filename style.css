@@ -246,7 +246,7 @@
   }
 
   #name {
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 32px;
@@ -690,7 +690,7 @@
   }
 
   .name-render {
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 35px;
     text-align: left;
   }
@@ -771,7 +771,7 @@
   }
 
   #name {
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 32px;
@@ -1308,7 +1308,7 @@
   }
 
   #name {
-    font-family: 'Inter', sans-serif;
+    font-family: "Inter", sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 32px;
@@ -1328,6 +1328,16 @@
     line-height: 28px;
     margin: 15px 25px 0 25px;
     color: #172b4d;
+  }
+
+  .error-msg {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 28px;
+    margin: 0 0 0 27px;
+    color: red;
   }
 
   .works {
