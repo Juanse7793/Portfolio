@@ -108,7 +108,7 @@
             <section class="data">
                 <section id="contacto" class="desk-form-container">
                     <p class="final-text">I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</p>   
-                    <form class="desk-form" action="https://formspree.io/f/xayvoepp" method="post">
+                    <form id="form-id" class="desk-form" action="https://formspree.io/f/xayvoepp" method="post">
                         <input class="input-name" id="full-name" type="text" placeholder="Full name" maxlength="30" required>
                         <label for="full-name" class="input-atributte">Full Name</label>
                         <input class="input-first-name" id="first-name" type="text" placeholder="First name" maxlength="30" required>
@@ -116,6 +116,9 @@
                         <input class="input-last-name" id="last-name" type="text" placeholder="Last name" maxlength="30" required>
                         <label for="last-name" class="input-atributte">Last Name</label>
                         <input class="email-address" id="email" type="email" placeholder="Email address" required>
+                        <div id="div-error">
+                            <p class="error-msg" id="error-msg"></p>
+                        </div>
                         <label for="email" class="input-atributte">Email</label>
                         <textarea name="text1" class="text1" id="text11" maxlength="500" placeholder="Enter text here" cols="30" rows="10" required></textarea>
                         <label for="text11" class="input-atributte">Text Area</label>
