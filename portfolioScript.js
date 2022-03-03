@@ -178,6 +178,7 @@ const form = document.getElementById('form-id');
 const divError = document.getElementById('div-error');
 const errorMsg = document.getElementById('error-msg');
 const emailForm = document.getElementById('email');
+const lastName = document.querySelector('.input-last-name');
 
 form.addEventListener('submit', (e) => {
   if (emailForm.value.match(/^[a-z@.0-9-_]*$/)) {
@@ -191,3 +192,5 @@ form.addEventListener('submit', (e) => {
     errorMsg.textContent = 'Email should be in lower case';
   }
 });
+
+lastName.removeAttribute('required');

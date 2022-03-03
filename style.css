@@ -294,8 +294,13 @@
     font-weight: normal;
     font-size: 14px;
     line-height: 28px;
-    margin: 0 0 0 27px;
+    margin: 0 0 20px 85px;
     color: red;
+
+  }
+
+  .sub-flex {
+    display: block;
   }
 
   .works {
@@ -585,12 +590,11 @@
     font-weight: 500;
     font-size: 17px;
     line-height: 24px;
-    margin-top: 38px;
     display: block;
     margin-left: auto;
     margin-right: auto;
     border: none;
-    margin-bottom: 50px;
+    margin-bottom: 35px;
   }
 }
 
@@ -821,6 +825,7 @@
     line-height: 28px;
     margin: 0 0 0 25px;
     color: red;
+    margin: 50px 50px;
   }
 
   .works {
@@ -1044,11 +1049,11 @@
     transform: scale(0.85);
   }
 
-  .final-email {
-    display: none;
+  .data-form-flex {
+    display: flex;
   }
 
-  .input-name {
+  .final-email {
     display: none;
   }
 
@@ -1062,7 +1067,7 @@
     box-sizing: border-box;
   }
 
-  .text2 {
+  .text1 {
     width: 684px;
     height: 114px;
     margin: 20px 22px 24px 24px;
@@ -1082,8 +1087,8 @@
     font-weight: bold;
   }
 
-  .text1 {
-    display: none;
+  .sub-flex {
+    display: flex;
   }
 
   .desk-form-container {
@@ -1098,7 +1103,7 @@
     transform: scale(0.85);
   }
 
-  .input-first-name {
+  .input-name {
     width: 330px;
     height: 48px;
     margin: 24px 0 24px 24px;
@@ -1111,7 +1116,7 @@
   .input-last-name {
     width: 330px;
     height: 48px;
-    margin: 0 22px 24px 24px;
+    margin: 22px 22px 24px 24px;
     padding-left: 10px;
     border-radius: 4px;
     border: 1px solid #d0d9d4;
@@ -1338,6 +1343,7 @@
     line-height: 28px;
     margin: 0 0 0 27px;
     color: red;
+    margin: 50px 50px;
   }
 
   .works {
@@ -1565,10 +1571,6 @@
     display: none;
   }
 
-  .input-name {
-    display: none;
-  }
-
   .email-address {
     width: 684px;
     height: 48px;
@@ -1579,7 +1581,7 @@
     box-sizing: border-box;
   }
 
-  .text2 {
+  .text1 {
     width: 684px;
     height: 114px;
     margin: 20px 22px 24px 24px;
@@ -1599,8 +1601,8 @@
     font-weight: bold;
   }
 
-  .text1 {
-    display: none;
+  .data-form-flex {
+    display: flex;
   }
 
   .desk-form-container {
@@ -1615,7 +1617,7 @@
     transform: scale(0.85);
   }
 
-  .input-first-name {
+  .input-name {
     width: 330px;
     height: 48px;
     margin: 24px 0 24px 24px;
@@ -1628,7 +1630,7 @@
   .input-last-name {
     width: 330px;
     height: 48px;
-    margin: 0 22px 24px 24px;
+    margin: 22px 22px 24px 24px;
     padding-left: 10px;
     border-radius: 4px;
     border: 1px solid #d0d9d4;
@@ -1646,6 +1648,11 @@
     background-position-y: bottom, bottom;
     background-size: 15%, 15%;
   }
+
+  .sub-flex {
+    display: flex;
+  }
+
 
   .get-in-touch {
     background: #26815b;
