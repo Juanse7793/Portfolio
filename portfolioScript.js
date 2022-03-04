@@ -15,7 +15,7 @@ document.getElementById('clsebtn').addEventListener('click', () => {
 });
 
 document.querySelectorAll('.a-buttons').forEach((n) => n.addEventListener('click', () => {
-  document.getElementById('desk-buttons').style.width = '0%';
+  document.getElementById('desk-buttons").style.width = '0%';
 }));
 
 // Render object
@@ -81,7 +81,7 @@ const container = document.getElementById('whole-section');
 const works = document.createElement('div');
 works.setAttribute('class', 'desk-works');
 
-for (let i = 0; i < object.length; i += 1) {
+for (let i = 0; i < object.length; i +=)
   const read = `
   <section class="works-container">
   <img class="image-grey" src="${object[i].imgMain}" alt="image-of-works">
