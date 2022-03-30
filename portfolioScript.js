@@ -21,13 +21,15 @@ document.querySelectorAll('.a-buttons').forEach((n) => n.addEventListener('click
 // Render object
 const object = [
   {
-    name: 'First Project',
-    title: 'Multi-Post Stories Gain+Glory 1',
-    imgsrc: 'images/Snapshoot.png',
-    imgMain: 'Backgroud-images/Img_Plaholder.png',
-    technologies: ['css', 'Javascript', 'html', 'Codepen'],
-    techMain: ['css', 'Javascript', 'html'],
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+    name: 'To-do List',
+    title: 'Project: 1 - Single Page Application "To-do List"',
+    imgsrc: 'images/bigtodo.png',
+    imgMain: 'images/todolist.png',
+    technologies: ['css', 'Javascript', 'html', 'ES6', 'Webpack'],
+    techMain: ['css', 'Javascript', 'html', 'ES6', 'Webpack'],
+    demo: 'https://juanse7793.github.io/To-do-list/',
+    source: 'https://github.com/Juanse7793/To-do-list',
+    description: 'A simple to-do list application that allows the user to add, edit, and delete tasks, also allows the user to mark tasks as completed and remove them from the list.',
   },
   {
     name: 'A fine Project',
@@ -130,10 +132,10 @@ projectBtns.forEach((button) => {
             <h2 id="name">${object[btnId].name}</h2>
             <div class="flex-btn">
                 <div>
-                    <button class="live" id="demo">See Live <img src="images/circle.png" alt="live"></button>
+                    <button onclick= "location.href = '${object[btnId].demo}';" class="live" id="demo">See Live <img src="images/circle.png" alt="live"></button>
                 </div>
                 <div>
-                    <button class="live" id="source">Source <img src="images/cat.png" alt="liveCat"></button>
+                    <button onclick= "location.href = '${object[btnId].source}';" class="live" id="source">Source <img src="images/cat.png" alt="liveCat"></button>
                 </div>
             </div>
 
@@ -148,10 +150,10 @@ projectBtns.forEach((button) => {
         </div>
         <div class="flex-btn-mob">
             <div>
-                <button class="live-mob" id="demo">See Live <img src="images/circle.png" alt="live"></button>
+                <button onclick= "location.href = '${object[btnId].demo}';" class="live-mob" id="demo">See Live <img src="images/circle.png" alt="live"></button>
             </div>
             <div>
-                <button class="live-mob" id="source">Source <img src="images/cat.png" alt="liveCat"></button>
+                <button onclick= "location.href = '${object[btnId].source}';" class="live-mob" id="source">Source <img src="images/cat.png" alt="liveCat"></button>
               </div>
           </div>`;
 
