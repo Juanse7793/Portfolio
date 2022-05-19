@@ -21,24 +21,26 @@ document.querySelectorAll('.a-buttons').forEach((n) => n.addEventListener('click
 // Render object
 const object = [
   {
-    name: 'To-do List',
-    title: 'Project: 1 - Single Page Application "To-do List"',
-    imgsrc: 'images/bigtodo.png',
-    imgMain: 'images/todolist.png',
-    technologies: ['css', 'Javascript', 'html', 'ES6', 'Webpack'],
-    techMain: ['css', 'Javascript', 'html', 'ES6', 'Webpack'],
-    demo: 'https://juanse7793.github.io/To-do-list/',
-    source: 'https://github.com/Juanse7793/To-do-list',
-    description: 'A simple to-do list application that allows the user to add, edit, and delete tasks, also allows the user to mark tasks as completed and remove them from the list.',
+    name: 'Covid-19 Stats in South America',
+    title: 'Covid-19 Stats in South America',
+    imgsrc: 'images/Covid-b.png',
+    imgMain: 'images/Covid-l.png',
+    technologies: ['React.js', 'Redux.js', 'API', 'JSX', 'Netlify'],
+    techMain: ['React.js', 'Redux.js', 'API', 'JSX', 'Netlify'],
+    demo: 'https://covid-app-juanse7793.netlify.app/',
+    source: 'https://github.com/Juanse7793/Covid-19-in-South-America',
+    description: 'This is a project that shows the stats of Covid-19 in South America. The data is obtained from an API. The project is made with React.js and Redux.js.',
   },
   {
-    name: 'A fine Project',
-    title: 'Multi-Post Stories Gain+Glory 2',
-    imgsrc: 'images/Snapshoot.png',
-    imgMain: 'Backgroud-images/Img_Plaholder.png',
-    technologies: ['css', 'Javascript', 'Ruby on Rails'],
-    techMain: ['css', 'Javascript', 'html'],
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+    name: 'Bookstore App',
+    title: 'Bookstore created with React.js',
+    imgsrc: 'images/Bookstore-b.png',
+    imgMain: 'images/Bookstore-l.png',
+    technologies: ['React.js', 'Redux.js', 'API', 'JSX', 'Netlify'],
+    techMain: ['React.js', 'Redux.js', 'API', 'JSX', 'Netlify'],
+    demo: 'https://bookstore-juanse7793.netlify.app/',
+    source: 'https://github.com/Juanse7793/Bookstore',
+    description: 'This is a SPA created on React that creates a library of books in which you can store books and authors in an API also the app is showing the status of the book. The state is managed with Redux.',
   },
   {
     name: 'A very good Project',
@@ -125,7 +127,7 @@ projectBtns.forEach((button) => {
             <button class="cerrar" id="cerrar">&times</button>
         </div>
         <div class="img-cont-pop">
-            <img src="${object[btnId].imgsrc}" alt="..." id="img">
+            <img class="img-big-pop" src="${object[btnId].imgsrc}" alt="..." id="img">
         </div>
         
         <div class="space-bet">
