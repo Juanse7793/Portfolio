@@ -15,7 +15,7 @@ document.getElementById('clsebtn').addEventListener('click', () => {
 });
 
 document.querySelectorAll('.a-buttons').forEach((n) => n.addEventListener('click', () => {
-  document.getElementById('desk-buttons').style.width = '0%';
+  document.getElementById('desk-buttons').style.width = '100%';
 }));
 
 // Render object
@@ -43,40 +43,48 @@ const object = [
     description: 'This is a SPA created on React that creates a library of books in which you can store books and authors in an API also the app is showing the status of the book. The state is managed with Redux.',
   },
   {
-    name: 'A very good Project',
-    title: 'Multi-Post Stories Gain+Glory 3',
-    imgsrc: 'images/Snapshoot.png',
-    imgMain: 'Backgroud-images/Img_Plaholder.png',
-    technologies: ['Bootstraps', 'Javascript', 'React', 'PHP', 'Codepen'],
-    techMain: ['css', 'Javascript', 'html'],
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+    name: 'Space Travelers',
+    title: 'The Space Travelers Project (SPA)',
+    imgsrc: 'images/space-b.png',
+    imgMain: 'images/space-l.png',
+    technologies: ['React.js', 'Redux.js', 'API', 'JSX', 'Heroku'],
+    techMain: ['React.js', 'Redux.js', 'API', 'JSX', 'Heroku'],
+    demo: 'https://space-travelers-juan-isaac.herokuapp.com/',
+    source: 'https://github.com/isaacpitwa/space-travelers',
+    description: 'In this project, we work with a real live data from the SpaceX API. We built a web application for a company that provides commercial and scientific space travel services. The application allows the users to book rockets and join selected space missions.',
   },
   {
-    name: 'An Excelent Project',
-    title: 'Multi-Post Stories Gain+Glory 4',
-    imgsrc: 'images/Snapshoot.png',
-    imgMain: 'Backgroud-images/Img_Plaholder.png',
-    technologies: ['Node.js', 'Javascript', 'Bootstraps'],
-    techMain: ['css', 'Javascript', 'html'],
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+    name: 'Movies App',
+    title: 'Movies App built with JavaScript',
+    imgsrc: 'images/movie-b.png',
+    imgMain: 'images/movie-l.png',
+    technologies: ['HTML', 'Javascript', 'Bootstraps', 'API', 'CSS'],
+    techMain: ['HTML', 'Javascript', 'Bootstraps', 'API', 'CSS'],
+    demo: 'https://juanse7793.github.io/Movies-App/',
+    source: 'https://github.com/Juanse7793/Movies-App',
+    description: 'This is an API-bassed web application, in which we selected one API of movies to display it and using another API we implement Likes and Comments, take a look!',
   },
   {
-    name: 'OMG Project',
-    title: 'Multi-Post Stories Gain+Glory 5',
-    imgsrc: 'images/Snapshoot.png',
-    imgMain: 'Backgroud-images/Img_Plaholder.png',
-    technologies: ['css', 'Javascript', 'html'],
-    techMain: ['css', 'Javascript', 'html'],
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+    name: 'VPN World Tour',
+    title: 'My Band World Tour Concert',
+    imgsrc: 'images/band-b.png',
+    imgMain: 'images/band-l.png',
+    technologies: ['CSS', 'Javascript', 'HTML'],
+    techMain: ['CSS', 'Javascript', 'HTML'],
+    demo: 'https://juanse7793.github.io/My-Band-World-Tour/',
+    source: 'https://github.com/Juanse7793/My-Band-World-Tour',
+    description: 'This is my personal Project from module 1, in which I created a Web Page for my former band called "VPN" in which I promote a world tour concert! check it out!',
   },
   {
-    name: 'The mother of all Projects',
-    title: 'Multi-Post Stories Gain+Glory 6',
-    imgsrc: 'images/Snapshoot.png',
-    imgMain: 'Backgroud-images/Img_Plaholder.png',
-    technologies: ['css', 'Javascript', 'html'],
-    techMain: ['css', 'Javascript', 'html'],
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+    name: 'Math Magicians',
+    title: 'Math Magicians built with React.js',
+    imgsrc: 'images/math-b.png',
+    imgMain: 'images/math-l.png',
+    technologies: ['React.js', 'JSX', 'Netlify'],
+    techMain: ['React.js', 'JSX', 'Netlify'],
+    demo: 'https://math-magicians-jsotomayor.netlify.app/',
+    source: 'https://github.com/Juanse7793/Math-Magicians',
+    description: '"Math magicians" is a website for all fans of mathematics. It is a Single Page App (SPA) that allows users to: Make simple calculations & Read a random math-related quote.',
   },
 ];
 
@@ -95,7 +103,7 @@ for (let i = 0; i < object.length; i += 1) {
           <section class="buttons">
           ${object[i].techMain.map((language) => `<button class="languages">${language}</button>`).join('')}
           </section>
-          <button class="see-project" id="${i}">See Project ${i + 1}</button>
+          <button class="see-project" id="${i}">See Project</button>
        </section>
    </div>
   </section>`;
@@ -134,10 +142,10 @@ projectBtns.forEach((button) => {
             <h2 id="name">${object[btnId].name}</h2>
             <div class="flex-btn">
                 <div>
-                    <button onclick= "location.href = '${object[btnId].demo}';" class="live" id="demo">See Live <img src="images/circle.png" alt="live"></button>
+                    <button onclick="window.open('${object[btnId].demo}', '_blank');" class="live" id="demo">See Live <img src="images/circle.png" alt="live"></button>
                 </div>
                 <div>
-                    <button onclick= "location.href = '${object[btnId].source}';" class="live" id="source">Source <img src="images/cat.png" alt="liveCat"></button>
+                    <button onclick="window.open('${object[btnId].source}', '_blank');" class="live" id="source">Source <img src="images/cat.png" alt="liveCat"></button>
                 </div>
             </div>
 
@@ -152,10 +160,10 @@ projectBtns.forEach((button) => {
         </div>
         <div class="flex-btn-mob">
             <div>
-                <button onclick= "location.href = '${object[btnId].demo}';" class="live-mob" id="demo">See Live <img src="images/circle.png" alt="live"></button>
+                <button onclick="window.open('${object[btnId].demo}', '_blank');" class="live-mob" id="demo">See Live <img src="images/circle.png" alt="live"></button>
             </div>
             <div>
-                <button onclick= "location.href = '${object[btnId].source}';" class="live-mob" id="source">Source <img src="images/cat.png" alt="liveCat"></button>
+                <button onclick= onclick="window.open('${object[btnId].source}', '_blank');" class="live-mob" id="source">Source <img src="images/cat.png" alt="liveCat"></button>
               </div>
           </div>`;
 

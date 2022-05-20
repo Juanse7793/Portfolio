@@ -38,7 +38,7 @@
 
 @media only screen and (max-width: 600px) {
   .intro {
-    width: 100%;
+    width: 99%;
     height: 100%;
     background-image: url(Backgroud-images/header-illsutration-mobile.svg);
     background-repeat: no-repeat;
@@ -66,6 +66,11 @@
     overflow-x: hidden;
     transition: 0.5s;
     vertical-align: top;
+  }
+
+  .header {
+    margin: 0 15%;
+    width: 70%;
   }
 
   .menu-navigation {
@@ -126,7 +131,7 @@
     line-height: 52px;
     text-align: center;
     color: #172b4d;
-    margin-bottom: 0;
+    margin-top: 0;
     padding-top: 85px;
   }
 
@@ -171,7 +176,6 @@
   .pop-up-modal {
     position: absolute;
     background-color: white;
-    margin-top: 70px;
     border-radius: 0.5rem;
     width: 385px;
     height: auto;
@@ -190,6 +194,7 @@
     bottom: 0;
     overflow: auto;
     background-color: rgba(0, 0, 0, 0.8);
+
   }
 
   .img-cont-pop {
@@ -224,6 +229,14 @@
   .flex-btn-mob {
     display: flex;
     justify-content: center;
+  }
+
+  .full-skills-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
   }
 
   .live {
@@ -437,20 +450,28 @@
     line-height: 28px;
     text-align: center;
     color: #172b4d;
-    width: 351px;
+    width: 60%;
     margin-top: 0;
-    padding-left: 10px;
   }
 
   .about-cont {
+    background-image: url(images/Mask_Group.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    margin-bottom: 5%;
   }
 
   .about-me {
     background-image: url(images/about.png);
     background-repeat: no-repeat;
     background-position-y: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
 
   .get-my-resume {
@@ -483,8 +504,7 @@
     height: 360px;
     border-radius: 8px;
     background-color: #b6c1bc;
-    margin-left: 24px;
-    margin-bottom: 24px;
+    margin-bottom: 5%;
   }
 
   .languages-title {
@@ -555,7 +575,7 @@
     line-height: 32px;
     text-align: center;
     color: #42526e;
-    height: 375px;
+    height: 50px;
   }
 
   .side-form {
@@ -623,7 +643,7 @@
     display: flex;
     justify-content: center;
     margin-right: 80px;
-    margin-bottom: 200px;
+    margin-bottom: 180px;
   }
 
   .a-buttons {
@@ -666,7 +686,8 @@
     line-height: 28px;
     text-align: center;
     color: #172b4d;
-    padding: 0 300px;
+    margin: 3% 25% 0 25%;
+    width: 50%;
   }
 
   .social {
@@ -702,7 +723,7 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    margin-top: 125px;
+    margin-top: 9%;
     transform: translate(-50%, -50%);
     background-color: white;
     padding: 0 1.5rem;
@@ -1169,6 +1190,10 @@
     display: none;
   }
 
+  #desk-buttons .closebtn {
+    display: none;
+  }
+
   .toolbar {
     display: none;
   }
@@ -1177,7 +1202,17 @@
     display: flex;
     justify-content: center;
     margin-right: 80px;
-    margin-bottom: 100px;
+    margin-bottom: 180px;
+  }
+
+  .a-buttons {
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 0 25px;
+    text-decoration: none;
+    color: #172b4d;
   }
 
   .portfolio-desk,
