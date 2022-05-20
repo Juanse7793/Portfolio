@@ -67,6 +67,10 @@
     color: white;
   }
 
+  .mob-btns {
+    display: none;
+  }
+
   .desktop-buttons {
     height: 100%;
     width: 0;
@@ -111,6 +115,7 @@
     font-size: 30px;
     top: 0;
     right: 15px;
+    z-index: 2;
   }
 
   .desktop-buttons a {
@@ -638,7 +643,7 @@
     text-align: center;
   }
 
-  #desk-buttons .closebtn {
+  #desk-buttons {
     display: none;
   }
 
@@ -1098,6 +1103,10 @@
 
   .final-email {
     display: none;
+  }
+
+  .mob-btns {
+    margin-bottom: 15%;
   }
 
   .email-address {

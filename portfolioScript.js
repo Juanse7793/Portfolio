@@ -15,7 +15,7 @@ document.getElementById('clsebtn').addEventListener('click', () => {
 });
 
 document.querySelectorAll('.a-buttons').forEach((n) => n.addEventListener('click', () => {
-  document.getElementById('desk-buttons').style.width = '100%';
+  document.getElementById('desk-buttons').style.width = '0%';
 }));
 
 // Render object
