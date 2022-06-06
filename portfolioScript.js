@@ -163,7 +163,7 @@ projectBtns.forEach((button) => {
                 <button onclick="window.open('${object[btnId].demo}', '_blank');" class="live-mob" id="demo">See Live <img src="images/circle.png" alt="live"></button>
             </div>
             <div>
-                <button onclick= onclick="window.open('${object[btnId].source}', '_blank');" class="live-mob" id="source">Source <img src="images/cat.png" alt="liveCat"></button>
+                <button onclick="window.open('${object[btnId].source}', '_blank');" class="live-mob" id="source">Source <img src="images/cat.png" alt="liveCat"></button>
               </div>
           </div>`;
 
