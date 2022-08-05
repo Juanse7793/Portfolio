@@ -21,7 +21,7 @@ document.querySelectorAll('.a-buttons').forEach((n) => n.addEventListener('click
 // Render object
 const object = [
   {
-    name: 'Covid-19 Stats in South America',
+    name: 'Covid-19 Stats in South America (Mobile Only)',
     title: 'Covid-19 Stats in South America',
     imgsrc: 'images/covid.png',
     imgMain: 'images/Covid-l.png',
@@ -76,7 +76,7 @@ const object = [
     description: 'This is my personal Project from module 1, in which I created a Web Page for my former band called "VPN" in which I promote a world tour concert! check it out!',
   },
   {
-    name: 'Recipe App',
+    name: 'Recipe App (Desktop Only)',
     title: 'Recipe App with Ruby on Rails',
     imgsrc: 'images/recipe-b.png',
     imgMain: 'images/recipe-l.png',

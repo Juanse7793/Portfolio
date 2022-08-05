@@ -2,10 +2,6 @@ html {
   scroll-behavior: smooth;
 }
 
-.cerrar {
-  display: none;
-}
-
 .name,
 .career {
   animation: Title 500ms forwards;
@@ -652,6 +648,10 @@ html {
   }
 
   #desk-buttons {
+    display: none;
+  }
+
+  .cerrar {
     display: none;
   }
 
