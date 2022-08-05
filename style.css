@@ -2,6 +2,10 @@ html {
   scroll-behavior: smooth;
 }
 
+.cerrar {
+  display: none;
+}
+
 .name,
 .career {
   animation: Title 500ms forwards;
@@ -754,10 +758,11 @@ html {
 
   .pop-up-modal {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-top: 9%;
-    transform: translate(-50%, -50%);
+    top: 0%;
+    left: 25%;
+    transform: scale(0.8);
+    width: 50%;
+    margin: 0 0 10% 0;
     background-color: white;
     padding: 0 1.5rem;
     padding-bottom: 1.5rem;
@@ -772,7 +777,7 @@ html {
     top: 0;
     right: 0;
     bottom: 0;
-    overflow: auto;
+    overflow: none;
     background-color: rgba(0, 0, 0, 0.8);
   }
 

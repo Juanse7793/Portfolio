@@ -23,7 +23,7 @@ const object = [
   {
     name: 'Covid-19 Stats in South America',
     title: 'Covid-19 Stats in South America',
-    imgsrc: 'images/Covid-b.png',
+    imgsrc: 'images/covid.png',
     imgMain: 'images/Covid-l.png',
     technologies: ['React.js', 'Redux.js', 'API', 'JSX', 'Netlify'],
     techMain: ['React.js', 'Redux.js', 'API', 'JSX', 'Netlify'],
@@ -34,7 +34,7 @@ const object = [
   {
     name: 'Budget App (Mobile only)',
     title: 'Budget App with Ruby on Rails',
-    imgsrc: 'images/budget-b.png',
+    imgsrc: 'images/budget-k.png',
     imgMain: 'images/budget.png',
     technologies: ['Ruby on Rails', 'Ruby', 'Heroku', 'RSpec', 'Capybara'],
     techMain: ['Ruby on Rails', 'Ruby', 'Heroku', 'RSpec'],
