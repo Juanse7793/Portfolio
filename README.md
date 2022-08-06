@@ -1,6 +1,8 @@
 # Portfolio
 
-> this repository is for creating the Portfolio.
+- In this repository you can find My Portfolio.
+
+<img src='images/rwdport.png'>
 
 
 ## Built With
