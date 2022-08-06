@@ -23,7 +23,7 @@ const object = [
   {
     name: 'Covid-19 Stats in South America (Mobile Only)',
     title: 'Covid-19 Stats in South America',
-    imgsrc: 'images/covid.png',
+    imgsrc: 'images/rwdcovid.png',
     imgMain: 'images/Covid-l.png',
     technologies: ['React.js', 'Redux.js', 'API', 'JSX', 'Netlify'],
     techMain: ['React.js', 'Redux.js', 'API', 'JSX', 'Netlify'],
@@ -34,7 +34,7 @@ const object = [
   {
     name: 'Budget App (Mobile only)',
     title: 'Budget App with Ruby on Rails',
-    imgsrc: 'images/budget-k.png',
+    imgsrc: 'images/rwdbudget.png',
     imgMain: 'images/budget.png',
     technologies: ['Ruby on Rails', 'Ruby', 'Heroku', 'RSpec', 'Capybara'],
     techMain: ['Ruby on Rails', 'Ruby', 'Heroku', 'RSpec'],
@@ -45,7 +45,7 @@ const object = [
   {
     name: 'Space Travelers',
     title: 'The Space Travelers Project (SPA)',
-    imgsrc: 'images/space-b.png',
+    imgsrc: 'images/rwdspace.png',
     imgMain: 'images/space-l.png',
     technologies: ['React.js', 'Redux.js', 'API', 'JSX', 'Heroku'],
     techMain: ['React.js', 'Redux.js', 'API', 'JSX', 'Heroku'],
@@ -67,7 +67,7 @@ const object = [
   {
     name: 'VPN World Tour',
     title: 'My Band World Tour Concert',
-    imgsrc: 'images/band-b.png',
+    imgsrc: 'images/rwdband.png',
     imgMain: 'images/band-l.png',
     technologies: ['CSS', 'Javascript', 'HTML'],
     techMain: ['CSS', 'Javascript', 'HTML'],
@@ -78,7 +78,7 @@ const object = [
   {
     name: 'Recipe App (Desktop Only)',
     title: 'Recipe App with Ruby on Rails',
-    imgsrc: 'images/recipe-b.png',
+    imgsrc: 'images/rwdrecipe1.png',
     imgMain: 'images/recipe-l.png',
     technologies: ['Ruby on Rails', 'Ruby', 'Heroku', 'RSpec', 'Capybara'],
     techMain: ['Ruby on Rails', 'Ruby', 'Heroku', 'RSpec'],
