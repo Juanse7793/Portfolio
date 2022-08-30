@@ -58,7 +58,7 @@ const object = [
     title: 'Concierge App (Ruby on Rails + React.js)',
     imgsrc: 'images/concierge-b.png',
     imgMain: 'images/concierge-f.png',
-    technologies: ['Ruby on Rails', 'React.js', 'Redux', 'APIs', 'Cloudinary', 'Netlify', 'Heroku'],
+    technologies: ['Ruby on Rails', 'React.js', 'Redux', 'Cloudinary'],
     techMain: ['Ruby', 'React.js', 'Redux', 'Netlify', 'Cloudinary'],
     demo: 'https://concierge-jtz.netlify.app/login',
     source: 'https://github.com/Juanse7793/Concierge-Front-end',
@@ -76,15 +76,15 @@ const object = [
     description: 'This is my personal Project from module 1, in which I created a Web Page for my former band called "VPN" in which I promote a world tour concert! check it out!',
   },
   {
-    name: 'Recipe App (Desktop Only)',
+    name: 'Recipe App',
     title: 'Recipe App with Ruby on Rails',
     imgsrc: 'images/rwdrecipe1.png',
     imgMain: 'images/recipe-l.png',
-    technologies: ['Ruby on Rails', 'Ruby', 'Heroku', 'RSpec', 'Capybara'],
+    technologies: ['Ruby on Rails', 'Ruby', 'RSpec', 'Capybara'],
     techMain: ['Ruby on Rails', 'Ruby', 'Heroku', 'RSpec'],
     demo: 'https://recipe-app-juanse7793.herokuapp.com/',
     source: 'https://github.com/Juanse7793/Recipe-app',
-    description: 'The Recipe app keeps track of all your recipes, ingredients, and inventory. It will allow you to save ingredients, keep track of what you have, create recipes, and generate a shopping list based on what you have and what you are missing from a recipe. Also, since sharing recipes is an important part of cooking the app should allow you to make them public so anyone can access them.',
+    description: 'The Recipe app keeps track of all your recipes, ingredients, and inventory. It will allow you to save ingredients, keep track of what you have, create recipes, and generate a shopping list based on what you have and what you are missing from a recipe.',
   },
 ];
 
