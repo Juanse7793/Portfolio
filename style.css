@@ -642,8 +642,8 @@ html {
     background-image: url(desktop/Header-llustration-desktop.svg);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100vw;
-    height: 90vh;
+    width: 98vw;
+    height: 100vh;
     text-align: center;
   }
 
@@ -1002,6 +1002,7 @@ html {
   }
 
   .about-me {
+    width: 98.5vw;
     background-image: url(desktop/illustration-about-me-2-desktop.svg);
     background-repeat: no-repeat;
     background-position-x: left;
@@ -1189,6 +1190,7 @@ html {
   }
 
   .data {
+    width: 98.5vw;
     background-image: url(desktop/right.svg), url(desktop/left.svg);
     background-repeat: no-repeat, no-repeat;
     background-position-x: right, left;
